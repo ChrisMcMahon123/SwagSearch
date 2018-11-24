@@ -1,0 +1,77 @@
+.App {
+  text-align: center;
+}
+
+.App-navbar {
+  background: #e62e00;
+}
+
+.navbar-brand {
+  margin-left: 15%;
+  color: white;
+}
+
+.App-button {
+  background: #e62e00;
+  color: white;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: 282c34;
+}
+
+.Area1 {
+  margin: 150px 25%;
+}
+
+.Area2 {
+  padding-top: 250px;
+}
+
+#logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#mapid {
+  float: right;
+  margin-right: 15%;
+  width: 650px;
+  height: 180px;
+  border: 5px solid #282c34;
+  border-radius: 10px;
+}
+
+#list {
+  float: left;
+  margin-left: 15%;
+}
+
+#carouselExampleIndicators {
+  margin-bottom: 75px;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
