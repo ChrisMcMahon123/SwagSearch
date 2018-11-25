@@ -3,7 +3,7 @@ module.exports = (sequelize, DataTypes) => {
   const Tweet = sequelize.define('Tweet', {
     latitude: DataTypes.FLOAT,
     longitude: DataTypes.FLOAT,
-    city: DataTypes.STRING,
+    id_str: DataTypes.STRING,
     hash: DataTypes.STRING
   }, {
     tableName: 'Tweets',
