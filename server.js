@@ -9,6 +9,8 @@ app.use(express.static(path.join(__dirname, "build")));
 
 //Add custom Clarifai router
 app.use('/', require('./routes/clarifai'))
+app.use('/', require('./routes/twitter'))
+
 
 // app.get("/", function(req, res) {
 //   res.sendFile(path.join(__dirname, "build", "index.html"));
