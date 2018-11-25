@@ -55,7 +55,6 @@ router.post("/twitter/", function(req, res){
 
                 } 
                 else if(location != null && location!=''){  
-                    console.log(index)
                     
                     //Calling Google map api
                     googleMapsClient.geocode({
@@ -88,7 +87,7 @@ router.post("/twitter/", function(req, res){
     })
     models.Tweet.findAll({where: {hash: req.body.hashtag}})
     .then(function(response){
-        console.log(response)
+        console.log(response.dataValues)
     })
 })
 

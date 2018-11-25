@@ -19,7 +19,8 @@ router.post('/search/fashion_brand/', function(req, res){
             for(index = 0; index<response.length && index<10; index++){
              predictions.push({name: response[index].name})
             }
-            res.send(predictions)
+            res.setHeader('Content-Type', 'application/json')
+            res.send(predictions);
 
         })
     }
