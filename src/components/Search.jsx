@@ -1,10 +1,9 @@
 import React, { Component } from "react";
-import logo from "../Images/logo.svg";
+import logo from "../Images/swag.png";
 //import ScrollIntoView from "react-scroll-into-view";
 import List from "./List";
 import LeafletMap from "./LeafletMap";
 ////search/fashion-brand/
-//https://www/google.ca
 
 class Search extends Component {
   state = {
